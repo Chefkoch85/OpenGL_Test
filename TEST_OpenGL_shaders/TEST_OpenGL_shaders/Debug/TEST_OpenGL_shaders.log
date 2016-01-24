@@ -1,0 +1,17 @@
+﻿Der Buildvorgang wurde am 05.01.2016 09:17:00 gestartet.
+     1>Projekt "C:\Prog\PROGRAM\OpenGL\TEST_OpenGL_shaders\TEST_OpenGL_shaders\TEST_OpenGL_shaders.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Prog\PROGRAM\OpenGL\SDK OpenGL\glfw-3.1.2.bin.WIN32\include" /I"C:\Prog\PROGRAM\OpenGL\SDK OpenGL\glm\glm" /I"C:\Prog\PROGRAM\OpenGL\SDK OpenGL\glew-1.13.0\include" /I"F:\Programmieren\SDK OpenGL\glew-1.13.0\include" /I"F:\Programmieren\SDK OpenGL\glm\glm" /I"F:\Programmieren\SDK OpenGL\glfw-3.1.2.bin.WIN32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt mainOpenGL.cpp
+         mainOpenGL.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: "APIENTRY": Makro-Neudefinition
+         c:\prog\program\opengl\sdk opengl\glfw-3.1.2.bin.win32\include\glfw\glfw3.h(85): note: Siehe vorherige Definition von "APIENTRY"
+       Link:
+         C:\Prog\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Prog\PROGRAM\OpenGL\TEST_OpenGL_shaders\Debug\TEST_OpenGL_shaders.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Prog\PROGRAM\OpenGL\SDK OpenGL\glew-1.13.0\lib\Release\Win32" /LIBPATH:"C:\Prog\PROGRAM\OpenGL\SDK OpenGL\glfw-3.1.2.bin.WIN32\lib-vc2015" /LIBPATH:"F:\Programmieren\SDK OpenGL\glew-1.13.0\lib\Release\Win32" /LIBPATH:"F:\Programmieren\SDK OpenGL\glfw-3.1.2.bin.WIN32\lib-vc2015" OpenGL32.lib glew32.lib glfw3dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Prog\PROGRAM\OpenGL\TEST_OpenGL_shaders\Debug\TEST_OpenGL_shaders.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Prog\PROGRAM\OpenGL\TEST_OpenGL_shaders\Debug\TEST_OpenGL_shaders.lib" /MACHINE:X86 Debug\Control.obj
+         Debug\mainOpenGL.obj
+         Debug\ShaderProgram.obj
+         TEST_OpenGL_shaders.vcxproj -> C:\Prog\PROGRAM\OpenGL\TEST_OpenGL_shaders\Debug\TEST_OpenGL_shaders.exe
+     1>Die Erstellung von Projekt "C:\Prog\PROGRAM\OpenGL\TEST_OpenGL_shaders\TEST_OpenGL_shaders\TEST_OpenGL_shaders.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.47
